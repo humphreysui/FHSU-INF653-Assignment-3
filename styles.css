@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .container {
+  max-width: 400px;
+}
+
+body .container .add {
+  margin: 30px 0;
+}
+
+body .container .add form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .container .add form .input_items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+body .container .add form .input_items input[type=text] {
+  border: none;
+  border-bottom: 1px solid #3d3c3c;
+  padding: 10px 5px;
+  margin: 5px 0;
+}
+
+body .container .add form button {
+  margin: 25px 0 0 10px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+body .container .list ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+  border-bottom: 1px dashed black;
+}
+
+body .container .list ul .list-items .title {
+  font-weight: bold;
+  padding: 5px 0;
+}
+
+body .container .list ul .list-items .description {
+  font-size: 0.9em;
+  padding: 5px 0;
+}
+
+body .container .list ul .delete_button button {
+  padding-top: 20px;
+  background-color: white;
+  border: none;
+  margin-left: 10px;
+}
+
+body .container footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: small;
+}
+
+/*
+
+.list{
+  ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    .list-items{
+      display: flex;
+      //flex-direction: column;
+      justify-content: right;
+       
+      .title{
+        font-weight: bold;
+        padding: 5px 0;
+      }
+      .description{
+        font-size: 0.9em;
+        padding: 5px 0;
+      }
+    }
+    .delete_button{
+      
+      padding-top: 10px;
+      button{
+         
+        background-color: white;
+        border: none;
+        margin-left: 10px;
+        
+      }
+    }
+  }
+}
+*/
+/*# sourceMappingURL=styles.css.map */
