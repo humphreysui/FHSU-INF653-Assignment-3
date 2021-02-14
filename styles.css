@@ -64,6 +64,7 @@ body .container .add form button {
   margin: 25px 0 0 10px;
   border-radius: 10px;
   background-color: white;
+  outline: none;
 }
 
 body .container .list ul {
@@ -96,6 +97,7 @@ body .container .list ul .delete_button button {
   background-color: white;
   border: none;
   margin-left: 10px;
+  outline: none;
 }
 
 body .container footer {
@@ -106,40 +108,4 @@ body .container footer {
   text-align: center;
   font-size: small;
 }
-
-/*
-
-.list{
-  ul{
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    .list-items{
-      display: flex;
-      //flex-direction: column;
-      justify-content: right;
-       
-      .title{
-        font-weight: bold;
-        padding: 5px 0;
-      }
-      .description{
-        font-size: 0.9em;
-        padding: 5px 0;
-      }
-    }
-    .delete_button{
-      
-      padding-top: 10px;
-      button{
-         
-        background-color: white;
-        border: none;
-        margin-left: 10px;
-        
-      }
-    }
-  }
-}
-*/
 /*# sourceMappingURL=styles.css.map */
