@@ -26,13 +26,14 @@ body{
           width: 100%;
           input[type=text] {
             border: none;
-            border-bottom: 1px solid rgb(61, 60, 60);     
+            border-bottom: 1px solid black;     
             padding: 10px 5px;
             margin: 5px 0;
           }
         }
         button{
           margin: 25px 0 0 10px; 
+          border: 1px solid black;
           border-radius: 10px;
           background-color: white;
           outline: none;
@@ -64,7 +65,7 @@ body{
             padding-top: 20px;
             background-color: white;
             border: none;
-            margin-left: 10px;
+            margin: 0 5px 0 10px;
             outline: none;
           }
         }
