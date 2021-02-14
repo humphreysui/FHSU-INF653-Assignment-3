@@ -83,6 +83,10 @@ body .container .list ul {
   border-bottom: 1px dashed black;
 }
 
+body .container .list ul .list-items {
+  margin-top: 5px;
+}
+
 body .container .list ul .list-items .title {
   font-weight: bold;
   padding: 5px 0;
@@ -91,10 +95,11 @@ body .container .list ul .list-items .title {
 body .container .list ul .list-items .description {
   font-size: 0.9em;
   padding: 5px 0;
+  margin-bottom: 5px;
 }
 
 body .container .list ul .delete_button button {
-  padding-top: 20px;
+  padding-top: 25px;
   background-color: white;
   border: none;
   margin: 0 5px 0 10px;
